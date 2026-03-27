@@ -6,4 +6,6 @@ O app consiste em uma junção de 4 outros apps:
 - JoKenPo: O jogo classivo com 5 tentativas e o ganhador no final.
 - Felizometro: Usando checkbox e radio pra opções e calcular o seu nivel de felicidade.
 
+Caminho app:[app](app/app-debug.apk)
+
 Nome: Ana Beatriz de Oliveira Alves
