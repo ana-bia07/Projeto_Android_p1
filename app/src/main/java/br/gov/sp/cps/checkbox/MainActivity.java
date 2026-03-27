@@ -14,6 +14,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import br.gov.sp.cps.projeto_p1.R;
+
 public class MainActivity extends AppCompatActivity {
     private CheckBox cGreen, cRed, cBlue;
     private TextView txtResult;
