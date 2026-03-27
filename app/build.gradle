@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace 'br.gov.sp.cps.checkbox'
+    namespace 'br.gov.sp.cps.projeto_p1'
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId "br.gov.sp.cps.checkbox"
+        applicationId "br.gov.sp.cps.projeto_p1"
         minSdk 24
         targetSdk 36
         versionCode 1

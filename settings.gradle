@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CheckBox"
+rootProject.name = "Projeto-P1"
 include ':app'

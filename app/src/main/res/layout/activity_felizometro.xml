@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Felizometro">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Felizometro"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O que faz:"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:padding="10dp"/>
+
+    <CheckBox
+        android:id="@+id/checkTrampo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Trabalhando"/>
+    <CheckBox
+        android:id="@+id/checkEstudo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Estudando"/>
+    <CheckBox
+        android:id="@+id/checkVaga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Folga"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horas de Sono:"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:padding="10dp"/>
+        
+    <RadioGroup
+        android:id="@+id/rgSono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp">
+        <RadioButton
+            android:id="@+id/rbSRuim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0h-3h"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/rbSIdeal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="4h-8h"/>
+        <RadioButton
+            android:id="@+id/rbSOtimo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9h-12h"
+            android:textSize="20sp"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nivel de Estresse:"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:padding="10dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgStress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp">
+        <RadioButton
+            android:id="@+id/rbEBom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0-3"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/rbENormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="4-6"/>
+        <RadioButton
+            android:id="@+id/rbERuim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8-10"
+            android:textSize="20sp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:onClick="calcular"
+        android:text="Calcular Felicidade"
+        android:layout_gravity="center"
+        android:padding="10dp"/>
+
+</LinearLayout>

@@ -10,9 +10,36 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CheckBox">
+        android:theme="@style/Theme.ProjetoP1">
         <activity
-            android:name=".MainActivity"
+            android:name="br.gov.sp.cps.imc.Activity_Sobrepeso"
+            android:exported="false" />
+        <activity
+            android:name="br.gov.sp.cps.imc.Activity_Normal"
+            android:exported="false" />
+        <activity
+            android:name="br.gov.sp.cps.imc.Activity_magreza"
+            android:exported="false" />
+        <activity
+            android:name="br.gov.sp.cps.imc.MainActivity_IMC"
+            android:exported="false" />
+        <activity
+            android:name=".ResultadoFeliz"
+            android:exported="false" />
+        <activity
+            android:name=".Felizometro"
+            android:exported="false" />
+        <activity
+            android:name="br.gov.sp.cps.jokenpo.Resultado"
+            android:exported="false" />
+        <activity
+            android:name="br.gov.sp.cps.loteria.MainActivity_Buttontext"
+            android:exported="false" />
+        <activity
+            android:name="br.gov.sp.cps.jokenpo.MainActivity_JoKenPo"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_P1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
